@@ -1,0 +1,7 @@
+name = hidden_captcha
+description = "Hidden math captcha"
+package = "Spam control"
+version = "6.x-1.2"
+project = "hidden_captcha"
+dependencies[] = captcha
+core = "6.x"
