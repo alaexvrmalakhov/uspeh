@@ -1,0 +1,20 @@
+<?php
+
+// $Id: taxonomy_menu_trails.install,v 1.1 2010/04/07 12:54:24 dmitriytrt Exp $
+
+/**
+ * @file
+ * Install and uninstall functions for taxonomy_menu_trails.
+ * 
+ * @author Dmitriy.trt      <http://drupal.org/user/329125>
+ */
+
+/**
+ * Implementation of hook_uninstall()
+ */
+function taxonomy_menu_trails_uninstall() {
+  variable_del('taxonomy_menu_trails_node_types');
+  variable_del('taxonomy_menu_trails_only_without_menu');
+  variable_del('taxonomy_menu_trails_selection_method');
+  variable_del('taxonomy_menu_trails_integration_with_tm');
+}
