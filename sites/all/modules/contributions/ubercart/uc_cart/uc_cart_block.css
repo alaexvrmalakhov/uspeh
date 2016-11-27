@@ -1,0 +1,167 @@
+/* $Id: uc_cart_block.css,v 1.7.2.10 2009/07/21 14:51:20 islandusurper Exp $ */
+
+/**
+ * Styles for the cart block icon.
+ */
+.cart-block-icon-full, .cart-block-icon-empty {
+  display: inline;
+  padding: 4px 12px 0;
+  height: 7px;
+}
+
+.cart-block-icon-full {
+  background: transparent url(images/cart-full.png) no-repeat left center;
+}
+
+.cart-block-icon-empty {
+  background: transparent url(images/cart-empty.png) no-repeat left center;
+}
+
+/**
+ * Styles for the cart block title and toggle.
+ */
+.cart-block-title-bar {
+  display: inline;
+}
+
+.cart-block-toggle {
+  cursor: pointer;
+}
+
+.cart-block-arrow {
+  display: inline;
+  padding: 4px 12px 0;
+  height: 7px;
+}
+
+.cart-block-title-bar .arrow-up {
+  background: transparent url(images/bullet-arrow-up.gif) no-repeat center center;
+}
+
+.cart-block-title-bar .arrow-down {
+  background: transparent url(images/bullet-arrow-down.gif) no-repeat center center;
+}
+
+.cart-help-text {
+  font-size: x-small;
+  position: relative;
+  top: -5px;
+}
+
+/**
+ * Styles for the cart block contents and summary.
+ */
+#cart-block-contents ul.product-description {
+  margin: 0pt;
+  padding: 0pt 0pt 0.25em 1em;
+}
+
+#cart-block-contents .product-description li {
+  margin: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  font-size: .8em;
+}
+
+.cart-block-items {
+	padding:0;
+	border-bottom:1px solid #CCCCCC;
+	margin-bottom:4px;
+}
+
+.cart-block-items tbody {
+  border-top: 0px;
+}
+
+.cart-block-items tr {
+
+}
+
+.cart-block-items tr.odd, .cart-block-items tr.even {
+	background:none !important;
+	border: none;
+}
+
+.cart-block-item-qty{
+	font-size:11px;
+}
+
+.cart-block-item-title {
+	width: 100%;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.cart-block-item-price {
+	text-align: right;
+	white-space: nowrap;
+	font-size:11px;
+}
+
+.cart-block-summary {
+	width:100%;
+}
+
+.cart-block-summary tbody {
+  border-top: 0px;
+}
+
+.cart-block-summary tr {
+  vertical-align: top;
+}
+
+.cart-block-summary-items {
+	color:#2C5987;
+	font-size:11px;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+.cart-block-summary-total {
+	color:#2C5987;
+	font-size:11px;
+	margin:0;
+	padding:0;
+	text-align: right;
+}
+
+.cart-block-summary-total label {
+	color:#2C5987;
+	font-size:11px;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+
+.cart-block-summary-total .uc-price {
+  	display: inline;
+}
+
+.cart-block-summary-links {
+
+}
+
+.cart-block-summary-links ul{
+	display:table;
+	margin:0;
+	padding:0;
+}
+
+.cart-block-summary-links ul.links li {
+	padding: 0;
+	margin:0;
+	margin-right:5px;
+	float:left;
+}
+
+.cart-block-summary-links ul.links li.last {
+	padding:0;
+	margin:0;
+}
+
+.cart-block-summary ul li a{
+	font-weight:bold;
+	color:#F27F0F;
+	font-size:11px;
+}
