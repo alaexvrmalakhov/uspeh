@@ -1,0 +1,399 @@
+/*&#1043;&#1083;&#1072;&#1074;&#1085;&#1072;&#1103; &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072; &#1072;&#1082;&#1094;&#1080;&#1103; - &#1057;&#1080;&#1083;&#1086;&#1082;&#1080;&#1085;&#1075;*/
+#siloking-slider-promo>h1, #siloking-slider-promo>h2, #siloking-slider-promo>h3, #siloking-slider-promo>h4 {
+	color: black;
+	font-size: 23px;
+	background: #fee430;
+	line-height: 25px;
+	font-weight: bold;
+}
+/*&#1040;&#1082;&#1094;&#1080;&#1103; &#1057;&#1080;&#1083;&#1086;&#1082;&#1080;&#1085;&#1075; &#1082;&#1086;&#1085;&#1077;&#1094;*/
+/*&#1040;&#1082;&#1094;&#1080;&#1103;*/
+/*Akcija*/
+#siloking-sale { 
+   position: relative; 
+   width: 100%;
+}
+#siloking-sale > h2 { 
+   position: absolute; 
+   top: 348px; 
+   left: 0; 
+   width: 100%; 
+}
+
+
+
+#siloking-sale>h2 span { 
+	color: black; 
+	font: bold 24px/45px Helvetica, Sans-Serif; 
+	background: #fee430;
+	padding: 5px; 
+}
+
+#siloking-sale>h2 span.spacer {
+   padding:0 5px;
+}
+
+li {
+	list-style-type: none;
+}
+
+i.icon-ok {
+	padding-right: 5px;
+}
+
+.custom_page {
+	font-size: 110%; 
+}
+
+.custom_page a, {
+	text-decoration: none;
+
+}
+
+.custom_page li {
+	list-style-type: none;
+}
+p.himel-power {
+	font-size: 130%;
+	font-weight: bold;
+	display: block;
+	float: left;
+	clear: both;
+	margin: 6px 0;
+}
+
+ul.himel-list {
+	display: block;
+	float: right;
+	margin-right: 53px;
+	margin-bottom: 0px;
+}
+
+.col {
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+div.double.col > div > h3 {
+	text-align: center;
+}
+
+.zavod {
+	font-size: 150%;
+}
+
+.country {
+	font-size: 70%;
+	color: #EBF325;
+	font-style: italic;
+}
+
+
+.double.col {
+	width: inherit !important;
+	clear: both;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+div.double.col > div.col1-50 {
+	width: 49%;
+	float: left;
+	position: relative;
+
+}
+
+div.double.col > div.col2-50 {
+	width: 49%;
+	float: right;
+	position: relative;
+}
+
+div.col1-40 {
+	width: 40%;
+	float: left;
+	position: relative;
+}
+
+div.col2-60 {
+	width: 60%;
+	float: right;
+	position: relative;
+}
+
+div.col1-54 {
+	width: 54%;
+	float: left;
+	position: relative;
+}
+
+div.col2-45 {
+	width: 45%;
+	float: left;
+	position: relative;
+}
+
+div.caption {
+	width: 720px;
+	margin-top: 14px;
+	padding: 10px;
+	background: #fff;
+	border-radius: 3px;
+	clear: both;
+	overflow: hidden;
+}
+
+.caption > div h4 {
+	font-weight: normal;
+	color: #383838;
+	font-size: 130%;
+	font-style: italic;
+	margin: 0 10px 3px 0;
+}
+
+.caption > .single, .double_v, double_h, v_split {
+	margin: 0 auto;
+	width: 690px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+
+
+div.narrow.caption {
+	width: 300px;
+}
+
+.caption img {
+	border-radius: 4px;
+
+}
+.single.caption img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;	
+}
+
+.caption > div.double_v img:first-of-type {
+	float: left;
+}
+
+.caption > div.double_v img:last-of-type {
+	float: right;
+}
+
+.v_split .first {
+	width: 49%;
+	float: left;
+}
+
+.v_split > .second {
+	width: 49%;
+	float: right;
+}
+
+.first, .second > img {
+	float: left;
+}
+
+div.narrow.caption img {
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+	background: #fff;
+}
+
+.caption p {
+	display: inline-block;
+	font-family: serif;
+	font-style: italic;
+	font-size: 120%;
+	line-height: 150%;
+	color: #383838;
+}
+
+.custom_page table {
+	display: block;
+	padding-top: 25px;
+}
+
+#bearings a {
+                    text-decoration: none;
+            }
+
+#bearings h3, #bearings p {
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#bearings i {
+	padding-right: 5px;
+}
+
+
+#catalog_ps {
+	width: 700px
+}
+
+#bearings_header {
+	color: #fff;
+	text-align: center;
+}
+span#title {
+	font-size: 0.9em;
+	font-family: sans-serif;
+			
+}
+.factories {
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+			
+#epk, #zkl {
+	float: left;
+	clear: right;
+	width: 340px
+}
+
+#fag, #skf {
+	float: right;
+	clear: left;
+	width: 340px
+}
+
+img.center {
+	display: block;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+		
+.catalog_ps a{
+	display: block;
+}
+.catalog_ps, .contacts p {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.highlight:hover>img {
+	opacity: 0.8;
+	
+}
+
+.highlight:hover>p, .highlight:hover>h3  {
+	color: #bdcf25;
+}
+
+#size {
+	font-size: 0.9em;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+#contacts {
+	clear: both;
+	padding-top: 30px;
+}
+
+#contacts p {
+	font-family: sans-serif;
+	font-size: 1.3em;
+
+}
+
+#phone_code {
+	color: #C0C0C0;
+	letter-spacing: -0.1em;
+	padding-right: 4px;
+}
+
+#phone_number {
+	letter-spacing: 0.1em
+}
+
+div.single.caption {
+	margin: 0 auto;
+	margin-top: 14px;
+	clear: both;
+	overflow: hidden;
+}
+
+.specs tr:nth-child(odd) {
+background: #666666;
+}
+.specs th, .specs td {
+text-align: center;
+}
+.specs td:first-child {
+text-align: left;
+}
+.specs th {
+background: #FFF473;
+border: none!important;
+}
+.prices > td {
+font-size: 1.5em;
+background: #FFF473;
+color: black;
+font-style: italic;
+}
+
+.hover {
+  background: yellow;
+}
+
+.akcija-siloking-title {
+background-color: #C50707;
+color: #fff !important;
+font-size: 200%;
+padding: 5px 10px 5px 10px;
+display: inline;
+}
+
+.price-siloking {
+text-align: center;
+margin-top: 0px;
+}
+
+.price-siloking tr {
+border-bottom: 1px solid;
+border-bottom-color: gray;
+}
+
+.price-siloking tr:last-chiled {
+border-bottom: none;
+}
+
+.price-siloking th {
+background: #fff;
+color: #C50707;
+text-align: left;
+border-bottom: 1px solid;
+border-bottom-color: gray;
+}
+
+.price-siloking td {
+text-align: center;
+}
+
+.model-info {
+color: black;
+font-size: 70%;
+}
+
+.price {
+color: #4d4d4d;
+}
+.best-price {
+padding: 5px 10px 5px 5px;
+border-radius: 3px;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+background: #C50707;
+color: #fff;
+font-style: italic;
+font-weight: bold;
+font-size: 150%;
+}
+

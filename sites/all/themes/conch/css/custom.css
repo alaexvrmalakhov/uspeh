@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.content .field-field-image{
+	float:left;
+	margin:7px 10px 0 0;
+	padding:0;
+}
+
+.view-content a.imagecache-small{
+	float:left;
+	margin:5px 10px 0 0;
+	padding:0;
+}
+
+.content a.imagecache-small_linked{
+	float:left;
+	margin:5px 10px 0 0;
+	padding:0;
+
+}
+
+.content a.imagecache-small_linked img,
+.view-content a.imagecache-small img{
+	-moz-border-radius-bottomleft:5px;
+ -moz-border-radius-bottomright:5px;
+ -moz-border-radius-topleft:5px;
+ -moz-border-radius-topright:5px;
+ border:2px solid #FFFFFF;
+}
+
+.node{
+		margin-bottom:30px;
+}

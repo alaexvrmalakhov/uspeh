@@ -1,0 +1,31 @@
+; $Id$
+
+; INFO
+; -----------------------------
+name        = madcapua
+description = Madcap.ua theme
+version     = "6.x-2.0.3"
+core        = 6.x
+engine      = phptemplate
+php         = DRUPAL_MINIMUM_PHP
+
+; BASE STYLESHEET -- don't edit this! and always load first
+; -----------------------------
+stylesheets[all][] = css/mt-base.css
+
+; THEME LAYOUT -- overrides all styling from above
+; ----------------------------
+stylesheets[all][] = stylesheets/style.css
+
+; REGIONS
+; -----------------------------
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+
+; SCRIPTS
+; -----------------------------
+scripts[] = scripts/Rockwell_MT_400.font.js
+scripts[] = scripts/cufon-yui.js

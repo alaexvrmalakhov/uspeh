@@ -1,0 +1,25 @@
+#pricelist tbody {
+	font-size: 14px;
+	width: 100%;
+}
+
+#pricelist tbody tr td {
+	min-width: 30px;
+	text-align: center;
+}
+
+#pricelist tbody tr td:first-child {
+	text-align: left;
+}
+
+#pricelist tbody tr:first-child td {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+}
+
+#pricelist tbody tr:nth-child(even) {
+	background: #666666;
+}
